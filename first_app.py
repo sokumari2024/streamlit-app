@@ -39,11 +39,14 @@ if st.button("Click me"):
     st.text("button clicked")
 
 
+#interactive Function
+num = st.number_input("Insert a Number")
+
 def sqr(num):
     return num*num
 
 
-num = st.number_input("Insert a Number")
+
 
 if st.button("Calculate Square"):
     result = sqr(num)
